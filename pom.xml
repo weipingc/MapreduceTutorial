@@ -11,6 +11,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <hadoop.version>2.3.0-mr1-cdh5.0.3</hadoop.version>
   </properties>
@@ -22,25 +24,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <!--<dependency>
-      <groupId>jdk.tools</groupId>
-      <artifactId>jdk.tools</artifactId>
-      <version>1.7</version>
-      <scope>system</scope>
-      <systemPath>/usr/lib/jvm/jdk1.7.0_51/lib/tools.jar</systemPath>
-    </dependency>-->
     <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
         <version>4.3.4</version>
     </dependency>
-    <!--<dependency>
-      <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-client</artifactId>
-      <version>${hadoop.version}</version>
-      <scope>provided</scope>
-    </dependency>-->
-    <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client -->
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-client</artifactId>
