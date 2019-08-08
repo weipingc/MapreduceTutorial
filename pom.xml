@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.hadoop.training</groupId>
-  <artifactId>examples</artifactId>
+  <artifactId>MapReduceTutorial</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>examples</name>
+  <name>MapReduceTutorial</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -49,6 +49,7 @@
   </dependencies>
 
   <repositories>
+    <!--
     <repository>
       <id>maven-hadoop</id>
       <name>Hadoop Releases</name>
@@ -59,5 +60,6 @@
       <name>Cloudera Repos</name>
       <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
     </repository>
+    -->
   </repositories>
 </project>
